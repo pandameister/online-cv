@@ -1,5 +1,5 @@
 #
-# Be aware that even a small syntax error here can lead to failures in output. 
+# Be aware that even a small syntax error here can lead to failures in output.
 #
 
 sidebar:
@@ -7,19 +7,19 @@ sidebar:
     title: My Resume
     url: 'http://webjeda.com'
     about: true # set to False or comment line if you want to remove the "How to use?" in the sidebar
-    
+
     # Profile information
-    name: Alan Doe
+    name: Patrice Pominville
     tagline: Full Stack Developer
     pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-    
+
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
-    twitter: '@webjeda'
+    email: patrice.pominville@gmail.com
+    phone: 415.359.4855
+    #website: blog.webjeda.com #do not add http://
+    linkedin: patricesf
+    #github: sharu725
+    #twitter: '@webjeda'
 
     languages:
         - language:
@@ -27,57 +27,40 @@ sidebar:
           level: Native
         - language:
           idiom: French
-          level: Professional
+          level: Native
         - language:
           idiom: Spanish
-          level: Professional
-        
+          level: Advanced
+
     interests:
         - interest:
           item: Climbing
           link:
         - interest:
-          item: Snowboarding
-          link:
-        - interest:
-          item: Cooking
+          item: Skiiing
           link:
 
-        
 
 
-
-
-career-profile: 
+career-profile:
     title: Career Profile
     text: 'Summarise your career here lorem ipsum dolor sit amet, consectetuer adipiscing elit.You can <a href="#" target="_blank">download this free resume/CV template here</a>. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.'
 
 
-studies: 
+studies:
     - education:
-      degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+      degree: BSc in Math & Computer Science
+      university: McGill University, Montreal Canada
+      time: 1997 - 2000
       details: "Describe your study here lorem ipsum dolor sit amet, consectetuer adipiscing
       elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
       magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
       pellentesque eu, pretium quis, sem."
-
-    - education:
-      degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: "Describe your study here lorem ipsum dolor sit amet, consectetuer adipiscing
-      elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
-      magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem."
-
-
 
 experiences:
     title: Experiences
-    
-    
+
+
     experiences:
         - role: Lead Developer
           time: 2015 - Present
@@ -88,7 +71,7 @@ experiences:
           time: 2014 - 2015
           company: Google, London
           details: Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-        
+
         - role: UI Developer
           time: 2012 - 2014
           company: Amazon, London
@@ -99,7 +82,7 @@ projects:
     title: Projects
     intro: "You can list your side projects or open source libraries in this section. Lorem ipsum dolor
       sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus."
-    
+
     projects:
       - project:
         title: Velocity
@@ -129,7 +112,7 @@ projects:
 publications:
     title: Publications
     intro: "You can list your publications in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus."
-    
+
     publications:
       - paper:
         title: The Art of Computer Programming
@@ -168,5 +151,5 @@ skills:
           level: 60%
 
 
-footer: 
+footer:
     text: 'Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a> for developers'
