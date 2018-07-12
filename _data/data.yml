@@ -34,13 +34,13 @@ sidebar:
 
     interests:
         - interest:
-          item: Climbing
-          link:
-        - interest:
           item: Skiiing
           link:
         - interest:
           item: Guitar
+          link:
+        - interest:
+          item: Climbing
           link:
         - interest:
           item: Motorcycles
@@ -52,7 +52,7 @@ sidebar:
 
 career-profile:
     title: Career Profile
-    text: I'm a Senior Software Developer with close to 20 years of professional experience in the software development industry from startups to large corporations. I have strong problem solving and analytical abilities, and I'm very resourceful, creative and self-motivited. I view software as a craft and I take pride at producing great software and mastering the technologies I work with, and at the same time getting things done.
+    text: I'm a Senior Software Developer with close to 20 years of professional experience in the industry from startups to large corporations. I have strong problem solving and analytical abilities, and I'm very resourceful, creative and self-motivited. I view software as a craft and I take pride at producing great software and mastering the technologies I work with, and at the same time getting things done.
 
 
 studies:
@@ -60,7 +60,7 @@ studies:
       degree: BSc in Math & Computer Science
       university: McGill University, Montreal
       time: 1997 - 2000
-      details: "Graduated with Honors with a 3.98 GPA"
+      details: Honors, 3.98 GPA
 
 experiences:
     title: Experiences
@@ -70,17 +70,17 @@ experiences:
         - role: Lead Front End Developer
           time: 2014 - Present
           company: Salesforce.com, San Francisco
-          details: I've worked and led various front end projects in Salesforce's analytics division, helping integrate and productize an analytics startup they acquired in 2014. This involved migrating their legacy jquery/backbone + coffeescript based UI to React.js + ES6 and building out a large front end application that would scale and be maintainable.  More recently I've been a lead developer of Salesforce new data visualization framework called Wave Charts (an alternative to D3),  and have been instrumental to make it a successful highly performant, scalable and extensible data visualization platform used across the company.
+          details: I've worked and led various front end projects in Salesforce's analytics division, helping integrate and productize an analytics startup they acquired in 2014. This involved migrating their legacy jquery/backbone + coffeescript based UI to React.js + ES6 and building out a large SPA that would scale and be maintainable.  More recently I've been a lead developer and architect of Salesforce's new data visualization framework called Wave Charts (an alternative to D3), and have been instrumental in making it a highly performant, scalable and extensible data visualization platform that is now being adopted across the company.
 
         - role: Senior Full Stack Developer
           time: 2009 - 2014
           company: Salesforce.com, San Francisco
-          details: I joined Salesforce as a full stack developer working in their Content Management and later Chatter (social & news feed) divisions. This involved writing code for Salesforces core application server in Java, as well as authoring some complex SQL and PL/SQL. I delivered many critical features such as news feed attachments, document previews (rendering), content sharing & access, file management REST APIs, etc ... that are used every day by hundreds of thousands of users.
+          details: I joined Salesforce as a full stack developer working in their Content Management and Chatter (social & news feed) divisions. This involved writing code for Salesforce's core application server in Java, as well as authoring complex SQL and PL/SQL. I delivered many critical features such as news feed attachments, document previews (queued rendering), content sharing permissions management, file management REST APIs, etc ... that are used every day by hundreds of thousands of users.
 
         - role: Software Developer
           time: 2000 - 2009
           company: Trigo Technologies + IBM, Burlingame + San Francisco
-          details: Trigo was a small Master Data Management startup that was eventually acquired by IBM. I worked there as full stack developer mostly writing Java and Oracle SQL, but also implementing home grown AJAX features in 2002 using iframes long before SPAs where a thing. I stayed on at IBM after the acquisition working on the MDM offering, and later their Mashup Hub project doing front end work in javascript + dojo.
+          details: Trigo was a small Master Data Management startup that was eventually acquired by IBM. I worked there as full stack developer mostly writing Java and Oracle SQL, but also implementing DHTML and home grown AJAX features in 2002 using iframes long before SPAs where a thing. I stayed on at IBM after the acquisition working on their MDM product offering, and later their Mashup Hub project, doing front end work in javascript + dojo.
 
 
 projects:
@@ -90,7 +90,7 @@ projects:
       - project:
         title: Hawaiichee
         link: "https://www.hawaiichee.com/"
-        tagline: "Helped bootstrap the development of a peer-to-peer property sharing platform focused on the Hawaii market, implementing the main listings and properties map UIs using React.js"
+        tagline: "I helped bootstrap the development of a friend's peer-to-peer property sharing platform focused on the Hawaii market, implementing the original listings and properties map UIs using React.js and integrating with Google Maps."
 
 publications:
     title: Publications
