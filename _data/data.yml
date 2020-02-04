@@ -3,128 +3,123 @@
 #
 
 sidebar:
-    # Site Settings
-    title: My Resume
-    url: 'http://webjeda.com'
-    #about: true # set to False or comment line if you want to remove the "How to use?" in the sidebar
+  # Site Settings
+  title: My Resume
+  url: "http://webjeda.com"
+  #about: true # set to False or comment line if you want to remove the "How to use?" in the sidebar
 
-    # Profile information
-    name: Patrice Pominville
-    tagline: Full stack software developer specializing in modern front end web application development
-    pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Patrice Pominville
+  tagline: Full stack software developer specializing in modern front end web application development
+  pic: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: patrice.pominville@gmail.com
-    phone: 415.359.4855
-    #website: blog.webjeda.com #do not add http://
-    linkedin: patricesf
-    #github: sharu725
-    #twitter: '@webjeda'
+  # Sidebar links
+  email: patrice.pominville@gmail.com
+  phone: 415.359.4855
+  #website: blog.webjeda.com #do not add http://
+  linkedin: patricesf
+  #github: sharu725
+  #twitter: '@webjeda'
 
-    languages:
-        - language:
-          idiom: English
-          level: Native
-        - language:
-          idiom: French
-          level: Native
-        - language:
-          idiom: Spanish
-          level: Advanced
+  languages:
+    - language:
+      idiom: English
+      level: Native
+    - language:
+      idiom: French
+      level: Native
+    - language:
+      idiom: Spanish
+      level: Advanced
 
-    interests:
-        - interest:
-          item: Skiiing
-          link:
-        - interest:
-          item: Guitar
-          link:
-        - interest:
-          item: Climbing
-          link:
-        - interest:
-          item: Motorcycles
-          link:
-        - interest:
-          item: Adventure Travel
-          link:
-
+  interests:
+    - interest:
+      item: Skiiing
+      link:
+    - interest:
+      item: Guitar
+      link:
+    - interest:
+      item: Climbing
+      link:
+    - interest:
+      item: Motorcycles
+      link:
+    - interest:
+      item: Adventure Travel
+      link:
 
 career-profile:
-    title: Career Profile
-    text: I'm a Senior Software Developer with close to 20 years of professional experience in the industry from startups to large corporations. I have strong problem solving and analytical abilities, and I'm very resourceful, creative and self-motivited. I view software as a craft and I take pride at producing great software and mastering the technologies I work with, and at the same time getting things done.
-
+  title: Career Profile
+  text: I'm a Senior Software Developer with close to 20 years of professional experience in the industry from startups to large corporations. I have strong problem solving and analytical abilities, and I'm very resourceful, creative and self-motivited. I view software as a craft and I take pride at producing great software and mastering the technologies I work with, and at the same time getting things done.
 
 studies:
-    - education:
-      degree: BSc in Math & Computer Science
-      university: McGill University, Montreal
-      time: 1997 - 2000
-      details: Honors, 3.98 GPA
+  - education:
+    degree: BSc in Math & Computer Science
+    university: McGill University, Montreal
+    time: 1997 - 2000
+    details: Honors, 3.98 GPA
 
 experiences:
-    title: Experiences
+  title: Experiences
 
+  experiences:
+    - role: Lead Front End Developer
+      time: 2014 - Present
+      company: Salesforce.com, San Francisco
+      details: I've worked and led various front end projects in Salesforce's Analytics and Platform divisions. In the Platform division, I'm currently leading the front end development of the next generation of Salesforce's Flow Builder product.  My team is building a modern flow designer UI build using typescript and Salesforce's LWC UI library, leveraging SVG and animations to create an exceptional user experience.  In the Analytics division, I helped integrate and productize an analytics startup Salesforce acquired in 2014. This involved migrating their legacy jquery/backbone + coffeescript based UI to React.js + ES6 and building out a large SPA that would scale and be maintainable.  Later I worked as a lead developer and architect of Salesforce's new data visualization framework called Wave Charts (an alternative to D3), and was instrumental in making it a highly performant, scalable and extensible data visualization platform that has been adopted across the company, and is used by millions of users every day.
 
-    experiences:
-        - role: Lead Front End Developer
-          time: 2014 - Present
-          company: Salesforce.com, San Francisco
-          details: I've worked and led various front end projects in Salesforce's analytics division, helping integrate and productize an analytics startup they acquired in 2014. This involved migrating their legacy jquery/backbone + coffeescript based UI to React.js + ES6 and building out a large SPA that would scale and be maintainable.  More recently I've been a lead developer and architect of Salesforce's new data visualization framework called Wave Charts (an alternative to D3), and have been instrumental in making it a highly performant, scalable and extensible data visualization platform that is now being adopted across the company.
+    - role: Senior Full Stack Developer
+      time: 2009 - 2014
+      company: Salesforce.com, San Francisco
+      details: I joined Salesforce as a full stack developer working in their Content Management and Chatter (social & news feed) divisions. This involved writing code for Salesforce's core application server in Java, as well as authoring complex SQL and PL/SQL. I delivered many critical features such as news feed attachments, document previews (queued rendering), content sharing permissions management, file management REST APIs, etc.
 
-        - role: Senior Full Stack Developer
-          time: 2009 - 2014
-          company: Salesforce.com, San Francisco
-          details: I joined Salesforce as a full stack developer working in their Content Management and Chatter (social & news feed) divisions. This involved writing code for Salesforce's core application server in Java, as well as authoring complex SQL and PL/SQL. I delivered many critical features such as news feed attachments, document previews (queued rendering), content sharing permissions management, file management REST APIs, etc ... that are used every day by hundreds of thousands of users.
-
-        - role: Software Developer
-          time: 2000 - 2009
-          company: Trigo Technologies + IBM, Burlingame + San Francisco
-          details: Trigo was a small Master Data Management startup that was eventually acquired by IBM. I worked there as full stack developer mostly writing Java and Oracle SQL, but also implementing DHTML and home grown AJAX features in 2002 using iframes long before SPAs where a thing. I stayed on at IBM after the acquisition working on their MDM product offering, and later their Mashup Hub project, doing front end work in javascript + dojo.
-
+    - role: Software Developer
+      time: 2000 - 2009
+      company: Trigo Technologies + IBM, Burlingame + San Francisco
+      details: Trigo was a small Master Data Management startup that was eventually acquired by IBM. I worked there as full stack developer mostly writing Java and Oracle SQL, but also implementing DHTML and home grown AJAX features in 2002 using iframes long before SPAs where a thing. I stayed on at IBM after the acquisition working on their MDM product offering, and later their Mashup Hub project, doing front end work in javascript + dojo.
 
 projects:
-    title: Projects
+  title: Projects
 
-    projects:
-      - project:
-        title: Hawaiichee
-        link: "https://www.hawaiichee.com/"
-        tagline: "I helped bootstrap the development of a friend's peer-to-peer property sharing platform focused on the Hawaii market, implementing the original listings and properties map UIs using React.js and integrating with Google Maps."
+  projects:
+    - project:
+      title: Hawaiichee
+      link: "https://www.hawaiichee.com/"
+      tagline: "I helped bootstrap the development of a friend's peer-to-peer property sharing platform focused on the Hawaii market, implementing the original listings and properties map UIs using React.js and integrating with Google Maps."
 
 publications:
-    title: Publications
+  title: Publications
 
-    publications:
-      - paper:
-        title: Optimizing Java Bytecode Using the Soot Framework, Is It Feasible?
-        authors: 	Raja Vallée-Rai, Etienne Gagnon, Laurie J. Hendren, Patrick Lam, Patrice Pominville, Vijay Sundaresan
-        conference: CC '00 Proceedings of the 9th International Conference on Compiler Construction, 2000
-      - paper:
-        title: Im also a co-inventor in various <a href="https://patents.justia.com/inventor/patrice-pominville" target="_blank">patents</a>
+  publications:
+    - paper:
+      title: Optimizing Java Bytecode Using the Soot Framework, Is It Feasible?
+      authors: Raja Vallée-Rai, Etienne Gagnon, Laurie J. Hendren, Patrick Lam, Patrice Pominville, Vijay Sundaresan
+      conference: CC '00 Proceedings of the 9th International Conference on Compiler Construction, 2000
+    - paper:
+      title: Im also a co-inventor in various <a href="https://patents.justia.com/inventor/patrice-pominville" target="_blank">patents</a>
 
 skills:
-    title: Skills &amp; Proficiency
-    skills:
-        - skill:
-          name: Javascript, ES6, Flow & coffeescript
-          level: 100%
-        - skill:
-          name: React.js & Node.js
-          level: 100%
-        - skill:
-          name: HTML5 & CSS
-          level: 100%
-        - skill:
-          name: Git, Perforce
-          level: 100%
-        - skill:
-          name: Java
-          level: 80%
-        - skill:
-          name: SQL
-          level: 80%
-        - skill:
-          name: Bash
-          level: 80%
-
+  title: Skills &amp; Proficiency
+  skills:
+    - skill:
+      name: Javascript, ES6, Flow & coffeescript
+      level: 100%
+    - skill:
+      name: React.js & Node.js
+      level: 100%
+    - skill:
+      name: HTML5 & CSS
+      level: 100%
+    - skill:
+      name: Git, Perforce
+      level: 100%
+    - skill:
+      name: Java
+      level: 80%
+    - skill:
+      name: SQL
+      level: 80%
+    - skill:
+      name: Bash
+      level: 80%
