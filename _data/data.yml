@@ -68,7 +68,7 @@ experiences:
       time: 2014 - Present
       company: Salesforce.com, San Francisco
       details:
-        I've worked and led various front end projects in Salesforce's Analytics and Platform divisions. In the Platform division, I'm currently leading the front end development of the next generation of Salesforce's Flow Builder product.  My team is building a modern flow designer UI build using typescript and Salesforce's LWC UI library, leveraging SVG and animations to create an exceptional user experience.
+        I've worked and led various front end projects in Salesforce's Analytics and Platform divisions. In the Platform division, I'm currently leading the front end development of the next generation of Salesforce's Flow Builder product.  My team is building a modern process flow designer UI using Salesforce's new LWC UI framework and typescript, leveraging SVG and animations to create an exceptional user experience.
         <p>
         In the Analytics division, I helped integrate and productize an analytics startup Salesforce acquired in 2014. This involved migrating their legacy jquery/backbone + coffeescript based UI to React.js + ES6 and building out a large SPA that would scale and be maintainable.  Later I worked as a lead developer and architect of Salesforce's new data visualization framework called Wave Charts (an alternative to D3), and was instrumental in making it a highly performant, scalable and extensible data visualization platform that has been adopted across the company, and is used by millions of users every day.
         </p>
@@ -107,7 +107,7 @@ skills:
   title: Skills &amp; Proficiency
   skills:
     - skill:
-      name: Javascript, ES6, Flow & coffeescript
+      name: Javascript, Coffescript & Typescript
       level: 100%
     - skill:
       name: React.js & Node.js
